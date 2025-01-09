@@ -36,33 +36,25 @@ const Header = ({
   return (
     <div className="w-full px-6 py-4 border-b border-white/20 bg-red-500">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Titre */}
         <span className="text-2xl font-bold text-white">Pokedex</span>
-
-        {/* Barre de recherche et filtres */}
         <div className="flex items-center space-x-4">
-          {/* Barre de recherche */}
           <input
             type="text"
             placeholder="Search"
             onChange={(e) => onSearchChange(e.target.value)}
             className="bg-white text-gray-800 rounded-full px-4 py-2 shadow-md focus:outline-none focus:ring-2 focus:ring-red-400 transition"
           />
-
-          {/* Sélecteur des types */}
           <select
             onChange={(e) => onTypeChange(e.target.value)}
             className="bg-white text-gray-800 rounded-full px-4 py-2 shadow-md focus:outline-none focus:ring-2 focus:ring-red-400 transition"
           >
             <option value="">Tous les types</option>
             {types.map((type) => (
-              <option key={type.id} value={type.name}>
+              <option key={`type-${type.id}`} value={type.name}>
                 {type.name}
               </option>
             ))}
           </select>
-
-          {/* Sélecteur des limites */}
           <select
             onChange={(e) => onLimitChange(Number(e.target.value))}
             className="bg-white text-gray-800 rounded-full px-4 py-2 shadow-md focus:outline-none focus:ring-2 focus:ring-red-400 transition"
@@ -70,7 +62,7 @@ const Header = ({
             <option value={10}>10</option>
             <option value={20}>20</option>
             <option value={50}>50</option>
-            <option value={100}>100</option>
+            <option value={0}>Pas de limite</option> {/* Option pour pas de limite */}
           </select>
         </div>
       </div>

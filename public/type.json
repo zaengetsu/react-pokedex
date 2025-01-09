@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name": "Poison",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/0/05/Poison.png"
+    },
+    {
+      "id": 2,
+      "name": "Plante",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/c/c5/Grass.png"
+    },
+    {
+      "id": 3,
+      "name": "Eau",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/9/9d/Water.png"
+    },
+    {
+      "id": 4,
+      "name": "Insecte",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/7/7d/Bug.png"
+    },
+    {
+      "id": 5,
+      "name": "Vol",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/7/7f/Flying.png"
+    },
+    {
+      "id": 6,
+      "name": "Feu",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/3/30/Fire.png"
+    },
+    {
+      "id": 7,
+      "name": "Normal",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/f/fb/Normal.png"
+    },
+    {
+      "id": 8,
+      "name": "Sol",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/8/8f/Ground.png"
+    },
+    {
+      "id": 9,
+      "name": "Électrik",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/2/2f/Electric.png"
+    },
+    {
+      "id": 10,
+      "name": "Fée",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/4/43/Fairy.png"
+    },
+    {
+      "id": 11,
+      "name": "Roche",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/0/0b/Rock.png"
+    },
+    {
+      "id": 12,
+      "name": "Glace",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/7/77/Ice.png"
+    },
+    {
+      "id": 13,
+      "name": "Psy",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/2/21/Psychic.png"
+    },
+    {
+      "id": 14,
+      "name": "Acier",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/c/c9/Steel.png"
+    },
+    {
+      "id": 15,
+      "name": "Ténèbres",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/0/0e/Dark.png"
+    },
+    {
+      "id": 16,
+      "name": "Combat",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/3/30/Fighting.png"
+    },
+    {
+      "id": 17,
+      "name": "Dragon",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/c/c7/Dragon.png"
+    },
+    {
+      "id": 18,
+      "name": "Spectre",
+      "image": "https://static.wikia.nocookie.net/pokemongo/images/a/ab/Ghost.png"
+    }
+  ]
